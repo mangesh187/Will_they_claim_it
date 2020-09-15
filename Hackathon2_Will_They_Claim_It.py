@@ -428,7 +428,6 @@ merged_test_data = get_merge_data(df_test_du, cat_columns, num_columns)
 y_test_pred = reg.predict(merged_test_data)
 y_test_pred
 
-
 # * Creating dataframe of output and ID 
 
 # In[41]:
