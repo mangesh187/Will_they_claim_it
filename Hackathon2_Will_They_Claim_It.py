@@ -21,9 +21,8 @@ jtplot.style()
 
 # In[2]:
 
-
 # Unzip the file
-#!unzip file.zip
+!unzip file.zip
 
 
 # Read the CSV 
