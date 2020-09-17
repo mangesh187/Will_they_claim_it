@@ -361,7 +361,6 @@ X_train,X_test,y_train,y_test = train_test_split(merged_data,y,test_size=0.1,ran
 
 # In[35]:
 
-
 y_train=((y_train==1).astype(int))  
 y_test=((y_test==1).astype(int))
 y_train.value_counts()
