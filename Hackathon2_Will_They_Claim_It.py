@@ -175,7 +175,6 @@ df_test.isna().sum()
 
 # In[19]:
 
-
 df_train.describe()
 
 
