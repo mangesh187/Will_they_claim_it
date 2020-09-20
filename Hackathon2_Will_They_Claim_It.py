@@ -415,7 +415,6 @@ print(classification_report_)
 
 # In[40]:
 
-
 # Predict the Test
 improve_data(df_test_du, df_test_du['Age'].mean(), df_test_du['Duration'].mean())
 #df_test_du.describe()
