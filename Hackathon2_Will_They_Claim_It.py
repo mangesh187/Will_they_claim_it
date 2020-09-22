@@ -418,6 +418,7 @@ print(classification_report_)
 # Predict the Test
 improve_data(df_test_du, df_test_du['Age'].mean(), df_test_du['Duration'].mean())
 #df_test_du.describe()
+
 #create_new_feature(df_test_1)
 merged_test_data = get_merge_data(df_test_du, cat_columns, num_columns)
 #merged_test_data_fe = merged_test_data[ranked_features.index]
