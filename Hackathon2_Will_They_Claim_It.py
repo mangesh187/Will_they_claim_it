@@ -425,9 +425,7 @@ merged_test_data = get_merge_data(df_test_du, cat_columns, num_columns)
 y_test_pred = reg.predict(merged_test_data)
 y_test_pred
 
-# * Creating dataframe of output and ID 
-
-# In[41]:
+# * Create dataframe of output and ID 
 
 output = pd.DataFrame(zip(df_test['ID'], y_test_pred), columns=['ID','Claim'])
 
