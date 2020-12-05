@@ -432,4 +432,3 @@ y_test_pred
 output = pd.DataFrame(zip(df_test['ID'], y_test_pred), columns=['ID','Claim'])
 
 output.to_csv('AMRS_results.csv',index=False)
-
