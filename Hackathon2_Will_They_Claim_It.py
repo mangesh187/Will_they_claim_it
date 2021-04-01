@@ -293,13 +293,6 @@ sns.heatmap(df_corr.corr(), annot=True,
             center= 0,
             fmt='.1g')
 
-
-# In[ ]:
-
-
-
-
-
 # In[28]:
 
 
